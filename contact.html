@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact</title>
+    <link rel="stylesheet" href="View/style.css">
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+
+<body id="top">
+
+<nav class="button-container">
+    <button class="heading-button" onclick="location.href='index.html'">Intro</button>
+    <button class="heading-button" onclick="location.href='pricing.html'">Services</button>
+    <button class="heading-button" onclick="location.href='testimonials.html'">Reviews</button>
+    <button class="heading-button" onclick="location.href='qualifications.html'">Qualifications</button>
+    <button class="heading-button" onclick="location.href='contact.html'">Contact</button>
+</nav>
+
+<div class="page-heading-title">
+    <h2>Contact</h2>
+</div>
+
+<div class="content">
+        <p class="central-paragraph">
+    Ready to begin — or just have a question?
+
+    We can have an initial chat to see if you feel happy to have your first session of counselling with me, no
+    pressure or commitment, just a first step.
+    I aim to respond within 48 hours.
+
+    </p>
+
+    <div class="contact-info">
+        <p><strong>Phone:</strong> +44 07535 3205 68</p>
+        <p><strong>Email:</strong> Jaynecounselling1@gmail.com</p>
+    </div>
+
+    <!--
+        Cloudflare Pages serves only static files, so send_email.php cannot run here.
+        This form posts to Formspree instead - sign up free at https://formspree.io,
+        create a form, and replace YOUR_FORM_ID below with the ID Formspree gives you.
+    -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="_replyto" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="personal-info">
+            <p>Jaynecounselling1@gmail.com</p>
+            <p>
+                <a href="https://www.linkedin.com/in/jayne-s-counselling-6b0465385/" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+            </p>
+        </div>
+        <div>
+            <a href="#top" class="back-to-top">Back to the top</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
